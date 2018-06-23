@@ -1,0 +1,298 @@
+
+<style type="text/css">
+    .lucas {
+        color: lightgrey;
+        text-align: center;
+        font-weight: bold;
+        font-family: Comic Sans MS;
+        max-width:100%;
+        height:auto;
+}
+    
+    .botao {
+        font-family: Comic Sans MS;
+        font-weight: bold;
+        font-size: 14px;
+        color: #ffffff;
+        padding: 10px 20px;
+        background: -moz-linear-gradient(
+            top,
+            #0040ff 0%,
+            #33193d 25%,
+            #00ccff);
+        background: -webkit-gradient(
+            linear, left top, left bottom,
+            from(#0040ff),
+            color-stop(0.25, #33193d),
+            to(#00ccff));
+        -moz-border-radius: 6px;
+        -webkit-border-radius: 6px;
+        border-radius: 6px;
+        border: 1px solid #000000;
+        transition: all 1ss ease;    
+        max-width:100%;
+        height:auto;
+}
+    .center2 {
+        font-family: Comic Sans MS;
+        font-size:23;
+        margin: auto;
+        font-weight: bold;
+        width: 22%;
+        height:190px;
+        position:absolute;
+        left:46%;
+        top:43%;
+        margin-left:-100px;
+        margin-top:-60px;
+        padding: 10px 20px;
+        background: -moz-linear-gradient(
+            top,
+            #0040ff 0%,
+            #33193d 40%,
+            #00ccff);
+        background: -webkit-gradient(
+            linear, left top, left bottom,
+            from(#00ccff),
+            color-stop(0.25, #33193d),
+            to(#0040ff));
+        -moz-border-radius: 6px;
+        -webkit-border-radius: 6px;
+        border: 5px solid #000000;
+        border-radius: 15px;
+        box-shadow: #000 15px 15px 15px;
+        max-width:100%;
+        height:auto;
+}
+    
+    .center3 {
+        font-family: Comic Sans MS;
+        text-align: center;
+        font-weight: bold;
+        border-radius: 6px;
+        border: 2px solid #000000;
+        max-width:100%;
+        height:auto;
+}
+    .resultado{
+    
+        position:absolute;
+        left:53%;
+        top:43%;
+        margin-left:-110px;
+        margin-top:-40px;
+        max-width:100%;
+        height:auto;
+}
+    .calc {
+        font-family: Comic Sans MS;
+        font-weight: bold;
+        font-size: 14px;
+        color: #ffffff;
+        padding: 10px 20px;
+        background: -moz-linear-gradient(
+            top,
+            #0040ff 0%,
+            #33193d 25%,
+            #00ccff);
+        background: -webkit-gradient(
+            linear, left top, left bottom,
+            from(#0040ff),
+            color-stop(0.25, #33193d),
+            to(#00ccff));
+        -moz-border-radius: 6px;
+        -webkit-border-radius: 6px;
+        border-radius: 15px;
+        border: 5px solid #000000;
+        left:36%;
+        top:28.5%;
+        margin-left:30px;
+        margin-top:-20px;
+        box-shadow: #000 20px 20px 20px;
+        position:static;
+        max-width:100%;
+        height:auto;
+        position: absolute;
+}
+    .letra{
+    font-family: Comic Sans MS;
+    font-size:40;
+    max-width:100%;
+    height:auto;
+}
+    .direito{
+    width:80px;
+    height:80px; 
+    float: right; 
+    margin-bottom: 0;
+    position: absolute; 
+    left: 187px;
+    top: 530;
+    bottom: 0;
+    border-radius: 80px;
+    box-shadow: #000 5px 5px 2px;
+    transition: all 0.5s ease;
+    max-width:100%;
+    height:auto;
+    position: fixed;
+}
+    .direito1{
+    width:80px;
+    height:80px; 
+    float: left; 
+    margin-bottom: 0;
+    position: absolute; 
+    top: 530px; 
+    left:5px;
+    bottom: 0;
+    border-radius: 80px;
+    box-shadow: #000 5px 5px 2px;
+    transition: all 0.5s ease;
+    max-width:100%;
+    height:auto;
+    position: fixed;
+}
+ .direito2{
+    width:80px;
+    height:80px; 
+    float: left; 
+    margin-bottom: 0;
+    position: absolute; 
+    top: 530px; 
+    left:275px;
+    bottom: 0;
+    border-radius: 80px;
+    box-shadow: #000 5px 5px 2px;
+    max-width:100%;
+    height:auto;
+    position: fixed;
+}
+    .direito3{
+    width:80px;
+    height:80px; 
+    float: left; 
+    margin-bottom: 0;
+    position: absolute; 
+    top: 530px; 
+    left:95px;
+    bottom: 0;
+    border-radius: 80px;
+    box-shadow: #000 5px 5px 2px;
+    max-width:100%;
+    height:auto;
+    position: fixed;
+}
+    .galeria img:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    max-width:100%;
+    height:auto;
+}
+    .botao:hover {
+    font-family: Comic Sans MS;
+	font-size: 14px;
+	color: #ffffff;
+	padding: 10px 20px;
+	background: -moz-linear-gradient(
+		top,
+		#740eb8 0%,
+		#3b3b3b 50%,
+		#242424 50%,
+		#1b97d1);
+	background: -webkit-gradient(
+		linear, left top, left bottom,
+		from(#740eb8),
+		color-stop(0.50, #3b3b3b),
+		color-stop(0.50, #242424),
+		to(#1b97d1));
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border: 1px solid #000000;
+	-moz-box-shadow:
+		0px 1px 3px rgba(0,132,247,0.5),
+		inset 0px 0px 1px rgba(55,113,184,0.6);
+	-webkit-box-shadow:
+		0px 1px 3px rgba(0,132,247,0.5),
+		inset 0px 0px 1px rgba(55,113,184,0.6);
+	box-shadow:
+		0px 1px 3px rgba(0,132,247,0.5),
+		inset 0px 0px 1px rgba(55,113,184,0.6);
+	text-shadow:
+		0px -1px 0px rgba(255,255,255,1),
+		0px 1px 0px rgba(255,255,255,0.2);
+    max-width:100%;
+	height:auto;
+}
+.tudo{
+    display:table;
+
+}
+.conteudo{
+    float: right;
+    width: 60%;
+
+}
+</style>
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculadora</title>
+        <LINK REL="SHORTCUT ICON" href="logo.png">
+    </head>
+            <body background="ede.jpg">
+                <div id='calc-contain'>
+                    <div class="tudo">
+                        <div class="conteudo">
+                            <float>
+                    <div class="galeria">                       
+                        <a href="https://www.facebook.com/jovemeti/" target="_blank"><img style="max-width: 80; max-height: 80;"title="Fanpage J&T" alt="Fanpage J&T" src="logo4.png" class="direito"></img></a>
+                        <a href="https://www.facebook.com/GrupoMetaBR/" target="_blank"><img title="Fanpage Grupo Meta" alt="Fanpage Grupo Meta" src="logo6.png" class="direito3"></img></a>
+                        <a href="https://www.faculdadeam.edu.br/" target="_blank"><img title="Site oficial Faculdade Antonio Meneghetti" alt="Site oficial Faculdade Antonio Meneghetti" src="logo3.png" class="direito1"></img></a>
+                        <a href="https://www.instagram.com/lucas.bankow/" target="_blank"><img title="Instagram Lucas Bankow" alt="Instagram Lucas Bankow" src="logo5.jpg" class="direito2""></img></a>
+                    </div>
+                    </br>
+    </br>
+</br>
+    </br>
+         </br>
+            </br>
+        </br>
+    </br>
+</br>
+            <blink><center><font size="4" color="white" face="Comic Sans MS" class="calc">             CALCULADORA             </font></center></blink>
+                <form name="calculadora" class="center2">
+                    <input type="text" class="center3" size="33" name="tela" placeholder="Digite um número"/>
+                </br>
+                    <a role="button"><input type="button" class="botao" value=" 1 " onclick="calculadora.tela.value += '1'" /></a>
+                    <input type="button" class="botao" value=" 2 " onclick="calculadora.tela.value += '2'" />
+                    <input type="button" class="botao" value=" 3 " onclick="calculadora.tela.value += '3'" />
+                    <input type="button" class="botao" value=" + " onclick="calculadora.tela.value += '+'" />
+                <br/>
+                    <input type="button" class="botao" value=" 4 " onclick="calculadora.tela.value += '4'" />
+                    <input type="button" class="botao" value=" 5 " onclick="calculadora.tela.value += '5'" />
+                    <input type="button" class="botao" value=" 6 " onclick="calculadora.tela.value += '6'" />
+                    <input type="button" class="botao" value=" - " onclick="calculadora.tela.value += '-'" />
+                </br>
+                    <input type="button" class="botao" value=" 7 " onclick="calculadora.tela.value += '7'" />
+                    <input type="button" class="botao" value=" 8 " onclick="calculadora.tela.value += '8'" />
+                    <input type="button" class="botao" value=" 9 " onclick="calculadora.tela.value += '9'" />
+                    <input type="button" class="botao" value=" C " onclick="calculadora.tela.value = ''" />
+                </br>
+                    <input type="button" class="botao" style="width: 135px;" value=" 0 " onclick="calculadora.tela.value += '0'" />
+                    <input type="button" class="botao" style="width: 63px;" value=" . " onclick="calculadora.tela.value += '.'" />
+                    <input type="button" class="botao" value=" = " onclick="calculadora.tela.value = eval(calculadora.tela.value)" />
+                </br>
+                </form>
+                <div id="agh">
+                </div>
+                </div>
+            </div>
+            </div>
+        </float>
+            </body>
+</html>
